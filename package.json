@@ -1,0 +1,24 @@
+{
+  "name": "gc-exposedb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ngrok": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gustavokei/gc-exposedb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gustavokei/gc-exposedb/issues"
+  },
+  "homepage": "https://gitlab.com/gustavokei/gc-exposedb#readme"
+}
