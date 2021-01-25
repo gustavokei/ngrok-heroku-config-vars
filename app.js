@@ -29,7 +29,7 @@ let exposeService = async (isExposed) => {
 
     exec(
       `heroku config:set ` +
-        `DB_DATABASE=${process.env.DB_DATABASE} DB_PASS=${process.env.DB_PASS} DB_USER=${process.env.DB_USER} ` +
+        `SQL_DATABASE=${process.env.SQL_DATABASE} SQL_PASS=${process.env.SQL_PASS} SQL_USER=${process.env.SQL_USER} ` +
         `NGROK_HOST=${pathname.hostname} NGROK_PORT=${pathname.port} ` +
         `-a ${process.env.HEROKU_APP}`,
       (err, stdout, stderr) => {
